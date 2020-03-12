@@ -11,18 +11,21 @@ body{
     color: #333;
 }
 
-#login{
-    background: #fff;
+#overlay{
+    background:transparent;
+    /* background: #fff; */
     opacity: 0.9;
-    padding: 2em;
-    border: #ccc 2px solid;
+    padding: 0;
+    /* border: #ccc 2px solid; */
     position: absolute;
-    top: 100px;
-    left: 50px;
+    /* top: 100px; */
+    /* left: 50px; */
+    height: 100vh;
+    width: 100vw;
 }
 
-#login input[type="text"], #login input[type="password"]{
-    padding: 7px;
-    margin-bottom: 10px;
-    border: 1px #ccc solid;
+#overlay h2{
+    margin: auto;
+    color: white;
+    text-align: center;
 }
